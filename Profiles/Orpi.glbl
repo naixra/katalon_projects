@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Orpi</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://orpi-connect-1.immo-facile.com/catalog/admin-v2/login.php?datetime=201906131045'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
