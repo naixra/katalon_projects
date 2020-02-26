@@ -1,3 +1,0 @@
-Lire Office ::
-
-Excel : retour à la ligne c'est shift + entrée
