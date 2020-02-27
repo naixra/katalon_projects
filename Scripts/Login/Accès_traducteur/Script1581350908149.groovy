@@ -29,12 +29,12 @@ KeywordLogger log = new KeywordLogger()
 
  Init
 def testCase="C942"
-GlobalVariable.testCase=testCase
+/* GlobalVariable.testCase=testCase
 String casePath = GlobalVariable.pathSuite + "/" + testCase
 File directory = new File(casePath)
 directory.mkdirs();
 output = new File(casePath + '/runtest-output.txt')
-GlobalVariable.runtest_info = new File(casePath + '/runtest-info.txt')
+GlobalVariable.runtest_info = new File(casePath + '/runtest-info.txt') */
 
 //---------
 // STEP 1
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Page_login/Bouton_login'))
 // Expectations
 WebUI.waitForPageLoad(10)
 WebUI.delay(5)
-CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot'(casePath + '/step1.png',135, 40, FailureHandling.OPTIONAL)
+/* CustomKeywords.'kms.turing.katalon.plugins.visualtesting.ScreenCapture.takeCuttingScreenshot'(casePath + '/step1.png',135, 40, FailureHandling.OPTIONAL)
 result = ("Step 1 : Snapshot :"+testCase + '/step1.png')
-output.append(result)
+output.append(result)*/
 WebUI.comment("ca marche")
