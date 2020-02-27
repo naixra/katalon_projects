@@ -27,14 +27,14 @@ import java.awt.*
 KeywordLogger log = new KeywordLogger()
 
 
-// Init
-//def testCase="C942"
-//GlobalVariable.testCase=testCase
-//String casePath = GlobalVariable.pathSuite + "/" + testCase
-//File directory = new File(casePath)
-//directory.mkdirs();
-//output = new File(casePath + '/runtest-output.txt')
-//GlobalVariable.runtest_info = new File(casePath + '/runtest-info.txt')
+ Init
+def testCase="C942"
+GlobalVariable.testCase=testCase
+String casePath = GlobalVariable.pathSuite + "/" + testCase
+File directory = new File(casePath)
+directory.mkdirs();
+output = new File(casePath + '/runtest-output.txt')
+GlobalVariable.runtest_info = new File(casePath + '/runtest-info.txt')
 
 //---------
 // STEP 1
