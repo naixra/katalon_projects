@@ -48,7 +48,7 @@ class InitTestSuite {
 		String todaysHour = today.format("HHmmss")
 		GlobalVariable.ExecutionDirectory = todaysDate+"-"+todaysHour+"/"
 		//String pathRun = System.getenv('AUTOTESTS_HOME') + System.getenv('AUTOTESTS_BASELINE')+"-"+todaysDate
-		String pathRun = "/test/" + "/Results/" + "/base/"
+		String pathRun = "test/" + "/Results/" + "/base/"
 		File directory = new File(pathRun)
 		directory.mkdirs();
 		GlobalVariable.pathSuite = pathRun + "/" + GlobalVariable.driver + "/" + GlobalVariable.Reseau
