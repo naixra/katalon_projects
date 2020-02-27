@@ -33,7 +33,7 @@ KeywordLogger log = new KeywordLogger()
 //String casePath = GlobalVariable.pathSuite + "/" + testCase
 //File directory = new File(casePath)
 //directory.mkdirs();
-/output = new File(casePath + '/runtest-output.txt')
+//output = new File(casePath + '/runtest-output.txt')
 //GlobalVariable.runtest_info = new File(casePath + '/runtest-info.txt')
 
 //---------
